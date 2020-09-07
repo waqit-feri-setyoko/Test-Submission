@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+}
+
+header{
+    border-bottom:2px solid rgb(143, 92, 92) ;
+}
+
+footer{
+    border-top:2px solid rgb(143, 92, 92) ;
+}
+

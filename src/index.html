@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Movie</title>
+</head>
+<body>
+    <header class="mt-1 mx-auto shadow bg-white">
+      <!-- Search -->
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Web Movie</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 input-keyword" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 search-button" type="submit">Search</button>
+        </form>
+      </nav>
+      <!-- Akhir Search -->
+    </header>
+
+    <main class="mx-auto md-8  shadow p-3 bg-white"> 
+        <section class="mainArticle">
+          <!-- Card -->
+          <div class="row" id="movie-container"></div>
+          <!-- akhir card -->
+
+          <!-- Tombol Show -->
+          <div class="modal fade" id="movieDetails" tabindex="-1" aria-labelledby="movieDetailsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-center modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="movieDetailsLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- akhir Tombol Show -->
+        </section>
+
+        <section class="secarticle">
+          <second-arcticle></second-arcticle>
+        </section>
+    </main>
+
+    <footer class="bg-light mx-auto">
+      <div class="footer-copyright text-center py-1">
+        <p class="pt-2">© 2020 Copyright: Waqit Feri Setyoko</p>
+      </div>
+    </footer>
+</body>
+</html>      
